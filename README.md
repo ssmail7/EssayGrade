@@ -1,2 +1,9 @@
 # EssayGrade
-Project 4 from my Object-Oriented Software Design class during the Summer 2017 semester.
+
+This program determines the grade that a student will receive on an essay.
+
+For a detailed description of this project, please refer to Project 4.pdf
+
+- Written with Apple macOS Sierra (Version 10.12.5)
+- Compiled using Apple's Xcode IDE (Version 8.3.2) in the Terminal application
+- Compile: "g++ -std=c++14 -Wall EssayDriver.cpp"
