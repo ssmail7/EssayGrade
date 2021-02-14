@@ -1,12 +1,18 @@
-//***************************************************************
+//**************************************************************
 // Written by Steven Smail for COP3331
 //
 // EssayDriver.cpp (Project 4)
 //
 // This is the driver program that tests the base class
 // (GradedActivity) and it's derived class (Essay).
-//***************************************************************
-#include <iostream>#include "Essay.h"using namespace std;int main(){
+//**************************************************************
+
+#include <iostream>
+#include "Essay.h"
+using namespace std;
+
+int main()
+{
   double grammar, spelling, length, content;
 
   // User input prompt for Grammar Points
@@ -59,7 +65,8 @@
   essaypnt->setLength(length);
   essaypnt->setContent(content);
 
-  // Display the points and the grade  cout << "Grammar points: " << essaypnt->getGrammar() << endl;
+  // Display the points and the grade
+  cout << "Grammar points: " << essaypnt->getGrammar() << endl;
   cout << "Spelling points: " << essaypnt->getSpelling() << endl;
   cout << "Length points: " << essaypnt->getLength() << endl;
   cout << "Content points: " << essaypnt->getContent() << endl;
